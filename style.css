@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 10vmin;
+    margin-top: 15vmin;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+p{
+    background-color: rgb(160, 211, 255);
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 50%;
+    margin-top: 10vmin;
+    line-height: 20vmin;
+    font-size: 5vmin;
+    
+}
+
+
+#toss{
+    padding: 2vmin 5vmin;
+    background-color: rgb(175, 233, 233);
+    border-radius: 10px;
+    border: none;
+    font-size: 3vmin;
+    margin-top: 10vmin;
+    outline: none;
+}
+
+
+
